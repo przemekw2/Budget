@@ -1,0 +1,15 @@
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

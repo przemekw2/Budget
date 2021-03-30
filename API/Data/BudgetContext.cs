@@ -1,0 +1,22 @@
+using API.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+
+namespace API.Data
+{
+    public class BudgetContext : DbContext
+    {
+
+        public DbSet<BudgetRow> BudgetRows { get; set; }
+        public DbSet<SpendCategory> SpendCategories { get; set; }
+        public BudgetContext(DbContextOptions<BudgetContext> options) : base(options)
+        {
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        { 
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+        }
+        private static readonly ILoggerFactory MyLoggerFactory = LoggerFactory.Create(builder => { builder.AddConsole(); });
+    }
+}
