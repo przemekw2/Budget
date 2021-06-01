@@ -19,7 +19,22 @@ namespace Infrastructure.Data.Migrations
                 .HasAnnotation("ProductVersion", "5.0.4")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("API.Entities.BudgetRow", b =>
+            modelBuilder.Entity("Core.Entities.Category", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("Core.Entities.Spend", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -27,53 +42,35 @@ namespace Infrastructure.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<decimal>("Amount")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(18,4)");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("CreatedAt")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("SpendCategoryId")
-                        .HasColumnType("int");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("SpendCategoryId");
+                    b.HasIndex("CategoryId");
 
-                    b.ToTable("BudgetRows");
+                    b.ToTable("Spends");
                 });
 
-            modelBuilder.Entity("API.Entities.SpendCategory", b =>
+            modelBuilder.Entity("Core.Entities.Spend", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("SpendName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("SpendCategories");
-                });
-
-            modelBuilder.Entity("API.Entities.BudgetRow", b =>
-                {
-                    b.HasOne("API.Entities.SpendCategory", "SpendCategory")
-                        .WithMany("BudgetRows")
-                        .HasForeignKey("SpendCategoryId")
+                    b.HasOne("Core.Entities.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("SpendCategory");
-                });
-
-            modelBuilder.Entity("API.Entities.SpendCategory", b =>
-                {
-                    b.Navigation("BudgetRows");
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }

@@ -2,7 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using API.Data;
+using API.Errors;
+using API.Extensions;
+using API.Helpers;
+using API.Middleware;
+using Core.Interfaces;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,35 +34,54 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
-
+            
             services.AddDbContext<BudgetContext>(options =>
-                options.UseSqlServer(_config.GetConnectionString("DefaultConnection"),
-            conf =>
+                options.UseSqlServer(_config.GetConnectionString("DefaultConnection")));
+            services.AddApplicationServices();
+            services.AddSwaggerDocumentation();
+            
+            services.AddCors(options =>
             {
-                conf.MigrationsAssembly(typeof(Startup).Assembly.FullName);
-            }));
-
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+                options.AddPolicy("CorsPolicy",
+                                builder =>
+                                {
+                                    builder.WithOrigins("https://localhost:5001/", "http://localhost:4200/")
+                                                        .AllowAnyHeader()
+                                                        .AllowAnyMethod();
+                                });
             });
+
+            // services.AddCors(opt =>
+            // {
+            //     opt.AddPolicy("CorsPolicy", policy =>
+            //     {
+            //         policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:5001/", "http://localhost:4200/");
+            //     });
+            // });
+
+            // services.AddDbContext<BudgetContext>(options =>
+            //     options.UseSqlServer(_config.GetConnectionString("DefaultConnection"),
+            // conf =>
+            // {
+            //     conf.MigrationsAssembly(typeof(Startup).Assembly.FullName);
+            // }));
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
-            }
 
+            app.UseMiddleware<ExceptionMiddleware>();
+            app.UseSwaggerDocumentation();
+            app.UseStatusCodePagesWithReExecute("/errors/{0}");
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors("CorsPolicy");
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

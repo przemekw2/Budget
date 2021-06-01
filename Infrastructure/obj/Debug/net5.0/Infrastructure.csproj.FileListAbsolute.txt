@@ -13,3 +13,6 @@ C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrast
 C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+C:\Users\Przemek\Documents\Dotnet\Budget\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache

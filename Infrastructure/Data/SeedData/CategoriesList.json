@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "Dochody"
+  },
+  {
+    "Name": "Bank_i_oszczednosci"
+  },
+  {
+    "Name": "Srodki_komunikacji"
+  },
+  {
+    "Name": "Mieszkanie_i_rachunki"
+  },
+  {
+    "Name": "Wydatki_bierzace"
+  },
+  {
+    "Name": "Telefon"
+  },
+  {
+    "Name": "Ubezpiecznia"
+  },
+  {
+    "Name": "Spozywcze"
+  },
+  {
+    "Name": "Uzywki_Hazard"
+  },
+  {
+    "Name": "Zdrowie"
+  },
+  {
+    "Name": "Wakacje"
+  },
+  {
+    "Name": "Opieka"
+  },
+  {
+    "Name": "Edukacja"
+  },
+  {
+    "Name": "Inne"
+  }
+]

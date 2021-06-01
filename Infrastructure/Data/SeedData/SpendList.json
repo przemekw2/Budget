@@ -1,0 +1,404 @@
+[
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 714.09,
+    "Description": "czynsz",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 69.06,
+    "Description": "rachunek za prad",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 93.5,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 59.99,
+    "Description": "rachunek za internet",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 3500,
+    "Description": "za godzine",
+    "CategoryId": 12
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 39.99,
+    "Description": "ubezpieczenia inne",
+    "CategoryId": 7
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 510.79,
+    "Description": "zakupy bierzace",
+    "CategoryId": 5
+  },
+  {
+    "CreatedAt": "2021-01-03",
+    "Amount": 10,
+    "Description": "oplata za telefon",
+    "CategoryId": 6
+  },
+  {
+    "CreatedAt": "2021-01-06",
+    "Amount": 64,
+    "Description": "restauraje",
+    "CategoryId": 8
+  },
+  {
+    "CreatedAt": "2021-01-08",
+    "Amount": 100.12,
+    "Description": "paliwo",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-01-08",
+    "Amount": 30.79,
+    "Description": "alkohol",
+    "CategoryId": 9
+  },
+  {
+    "CreatedAt": "2021-01-08",
+    "Amount": 105,
+    "Description": "aktywnosc sportowa",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-01-08",
+    "Amount": 7061.52,
+    "Description": "wynagrodzenie",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-01-08",
+    "Amount": 1592.05,
+    "Description": "Inne",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-01-09",
+    "Amount": 231.99,
+    "Description": "aktywnosc sportowa",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-01-18",
+    "Amount": 18,
+    "Description": "bilety",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-01-20",
+    "Amount": 2365.14,
+    "Description": "Inne",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-01-23",
+    "Amount": 150,
+    "Description": "inne",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 257.58,
+    "Description": "czynsz",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 95.39,
+    "Description": "rachunek za prad",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 93.5,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 59.99,
+    "Description": "rachunek za internet",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 27.05,
+    "Description": "rachunek za gaz",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 3500,
+    "Description": "za godzine",
+    "CategoryId": 12
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 39.99,
+    "Description": "ubezpieczenia inne",
+    "CategoryId": 7
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 120.38,
+    "Description": "paliwo",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 415.95,
+    "Description": "zakupy bierzace",
+    "CategoryId": 5
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 16,
+    "Description": "restauraje",
+    "CategoryId": 8
+  },
+  {
+    "CreatedAt": "2021-02-01",
+    "Amount": 28,
+    "Description": "oplata za telefon",
+    "CategoryId": 6
+  },
+  {
+    "CreatedAt": "2021-02-02",
+    "Amount": 99,
+    "Description": "szkolenia",
+    "CategoryId": 13
+  },
+  {
+    "CreatedAt": "2021-02-02",
+    "Amount": 125,
+    "Description": "aktywnosc sportowa",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-02-04",
+    "Amount": 453,
+    "Description": "ubezpieczenie samochodu",
+    "CategoryId": 7
+  },
+  {
+    "CreatedAt": "2021-02-06",
+    "Amount": 7075.52,
+    "Description": "wynagrodzenie",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-02-09",
+    "Amount": 53.99,
+    "Description": "wypocznek",
+    "CategoryId": 11
+  },
+  {
+    "CreatedAt": "2021-02-09",
+    "Amount": 1618.38,
+    "Description": "Inne",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-02-12",
+    "Amount": 24,
+    "Description": "bilety",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-02-20",
+    "Amount": 14.5,
+    "Description": "leki i platne wizyty",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-02-24",
+    "Amount": 2365.14,
+    "Description": "Inne",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 674.4,
+    "Description": "czynsz",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 41.71,
+    "Description": "rachunek za prad",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 93.5,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 59.99,
+    "Description": "rachunek za internet",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 3500,
+    "Description": "za godzine",
+    "CategoryId": 12
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 39.99,
+    "Description": "ubezpieczenia inne",
+    "CategoryId": 7
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 18,
+    "Description": "oplata za telefon",
+    "CategoryId": 6
+  },
+  {
+    "CreatedAt": "2021-03-02",
+    "Amount": 198.1,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-24",
+    "Amount": 52,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-03-01",
+    "Amount": 81.2,
+    "Description": "leki i platne wizyty",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-03-01",
+    "Amount": 166,
+    "Description": "restauraje",
+    "CategoryId": 8
+  },
+  {
+    "CreatedAt": "2021-03-03",
+    "Amount": 349.21,
+    "Description": "zakupy bierzace",
+    "CategoryId": 5
+  },
+  {
+    "CreatedAt": "2021-03-04",
+    "Amount": 24,
+    "Description": "bilety",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-03-05",
+    "Amount": 149.95,
+    "Description": "paliwo",
+    "CategoryId": 3
+  },
+  {
+    "CreatedAt": "2021-03-06",
+    "Amount": 30.66,
+    "Description": "alkohol",
+    "CategoryId": 9
+  },
+  {
+    "CreatedAt": "2021-03-10",
+    "Amount": 7779.97,
+    "Description": "wynagrodzenie",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-03-10",
+    "Amount": 4332.4,
+    "Description": "Inne",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-03-10",
+    "Amount": 162.5,
+    "Description": "wypocznek",
+    "CategoryId": 11
+  },
+  {
+    "CreatedAt": "2021-03-15",
+    "Amount": 420,
+    "Description": "stomatolog",
+    "CategoryId": 10
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 723.45,
+    "Description": "czynsz",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 41.71,
+    "Description": "rachunek za prad",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 20.41,
+    "Description": "rachunek za prad",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 93.5,
+    "Description": "inne",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 59.99,
+    "Description": "rachunek za internet",
+    "CategoryId": 4
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 39.99,
+    "Description": "ubezpieczenia inne",
+    "CategoryId": 7
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 0,
+    "Description": "oplata za telefon",
+    "CategoryId": 6
+  },
+  {
+    "CreatedAt": "2021-04-01",
+    "Amount": 150,
+    "Description": "wynagrodzenie",
+    "CategoryId": 1
+  },
+  {
+    "CreatedAt": "2021-04-02",
+    "Amount": 104.88,
+    "Description": "zakupy bierzace",
+    "CategoryId": 5
+  },
+  {
+    "CreatedAt": "2021-04-02",
+    "Amount": 6.67,
+    "Description": "alkohol",
+    "CategoryId": 9
+  }
+]
